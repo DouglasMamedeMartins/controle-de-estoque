@@ -33,6 +33,7 @@ const Header = () => {
       color="gray.500"
       fontWeight="bold"
     >
+      
       {isMobile && (
         <IconButton
           icon={<Icon as={FiMenu} />}
@@ -46,7 +47,7 @@ const Header = () => {
       <Flex ml="auto">
         <HStack>
           <Text>Darlene</Text>
-          <Avatar size="md" name="Darlene" />
+          <Avatar size="md" name="Darlene" backgroundColor='rgb(104, 51, 228)' />
         </HStack>
       </Flex>
     </Flex>

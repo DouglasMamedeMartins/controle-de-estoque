@@ -14,7 +14,7 @@ const SidebarNav = () => {
         </Text>
         <Stack>
           <ChakraLink
-            _hover={{ bg: "gray.100" }}
+            _hover={{ bg: "rgb(104, 51, 228)" }}
             px="4"
             py="2"
             borderRadius={5}
@@ -34,11 +34,11 @@ const SidebarNav = () => {
         </Text>
         <Stack>
           <ChakraLink
-            _hover={{ bg: "gray.100" }}
+            _hover={{ bg: "rgb(104, 51, 228)" }}
             px="4"
             py="2"
             borderRadius={5}
-            bg={asPath === "/balance" ? "gray.200" : ""}
+            bg={asPath === "/balance" ? "rgb(104, 51, 228)" : ""}
           >
             <Link href="/balance">
               <Text fontSize="md" fontWeight="medium" color="gray.500">
@@ -47,7 +47,7 @@ const SidebarNav = () => {
             </Link>
           </ChakraLink>
           <ChakraLink
-            _hover={{ bg: "gray.100" }}
+            _hover={{ bg: "rgb(104, 51, 228)" }}
             px="4"
             py="2"
             borderRadius={5}
@@ -60,7 +60,7 @@ const SidebarNav = () => {
             </Link>
           </ChakraLink>
           <ChakraLink
-            _hover={{ bg: "gray.100" }}
+            _hover={{ bg: "rgb(104, 51, 228)" }}
             px="4"
             py="2"
             borderRadius={5}

@@ -100,7 +100,7 @@ const Produtos = () => {
               onChange={(e) => setName(e.target.value)}
               placeholder="Nome do produto"
             />
-            <Button w="40" onClick={handleNewProduct}>
+            <Button _hover={{bg: 'rgb(104, 51, 228)'}} w="40" onClick={handleNewProduct}>
               CADASTRAR
             </Button>
           </SimpleGrid>
